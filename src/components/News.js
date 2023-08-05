@@ -46,7 +46,7 @@ const News = ({ setProgress, apiKey, pageSize, country, category }) => {
         className="text-center"
         style={{ margin: "35px 0px", marginTop: "85px" }}
       >
-        NewsMonkey - Top {capitaliZeFirstLetter(category)} Headlines
+        Taaza Khabar - Top {capitaliZeFirstLetter(category)} Headlines
       </h1>
       {loading && <Spinner />}
       <InfiniteScroll
